@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch a Sketch</title>
+
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+
+      <div class="button-container">
+          <h1>Etch a Sketch</h1>
+          <button class="clear">Clear</button>
+
+          <div class="new-container">
+              <button class="change">Change size</button>
+              <input type="range" min="1" max="100" value="16" class="range">
+              <label class="value" for="" > 16</label>
+          </div>
+          <h2>Select Color</h2>
+          <button class="rgb">RGB Color</button>
+          
+          <div class="choose_color">
+              <label for="color" style="font-size: 1.5rem;">Random Color</label>
+              <input type="color" class="color">
+          </div>
+      </div>
+    
+      <div class="grid-container"></div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
