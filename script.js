@@ -95,13 +95,6 @@ function rgbColor(){
     return color;
 }
 
-// function hoverColor(e){
-//     if (rgbcolor.addEventListener('click', function(){
-//         let randmcolor = randomColor();
-//         e.target.style.backgroundColor = randmcolor;
-//     }))
-//     e.target.style.backgroundColor = 'black';
-// }
 
 
 
